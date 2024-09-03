@@ -1,0 +1,55 @@
+/* Basic Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #33ff33;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #0e0e0e;
+    color: #33ff33;
+}
+
+#main-header {
+    height: 100vh;
+    background: url('https://global.discourse-cdn.com/business7/uploads/notch/original/2X/0/005e870f89c55433413ac324ce978c372c3739a1.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #33ff33;
+}
+
+.typewriter {
+    font-size: 2.5em;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #33ff33;
+    width: fit-content;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #33ff33 }
+}
+
+/* Card Customization */
+.card {
+    background-color: #1e1e1e;
+    border: none;
+}
+
+.card-title {
+    color: #33ff33;
+}
+
+.card-subtitle {
+    color: #999;
+}
